@@ -19,7 +19,6 @@ void Bird::Draw() {
 }
 
 void Bird::Jump() {
-    TraceLog(LOG_INFO, "Jumped!");
     velocity.y = -jumpVelocity;
 }
 

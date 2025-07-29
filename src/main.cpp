@@ -102,7 +102,6 @@ void SpawnPipe(Game* game, float deltaTime) {
 
 
 void Update(Game* game) {
-    TraceLog(LOG_INFO, ("LENGTH: " + std::to_string(game->gameObjects.size())).c_str());
     // get frame time
     float deltaTime = GetFrameTime();
     // maybe spawn pipe
