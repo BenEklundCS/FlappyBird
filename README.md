@@ -1,22 +1,20 @@
-# C++ Raylib Game Template
+# Flappy Bird - Game 1 of the 20 Games Challenge, based on C++ Raylib Game Template
 
 [![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://cplusplus.com/) 
 [![Raylib](https://img.shields.io/badge/Raylib-FA8B00?style=for-the-badge&logo=raylib&logoColor=white)](https://www.raylib.com/) 
 [![ImGui](https://img.shields.io/badge/ImGui-009DFF?style=for-the-badge&logo=imgui&logoColor=white)](https://github.com/ocornut/imgui) 
 
-A simple, reusable C++ game template using [Raylib](https://www.raylib.com/), ImGui, and rlImGui. Built for the **20 Games Challenge** and anyone looking to prototype 2D games with low-level control.
+A simple implementation of Flappy Bird in C++ and Raylib.
 
-This template is cross-platform (Windows/Linux) and includes a working CMake setup that automatically downloads dependencies if not found.
+Based on my C++ Raylib Game Template: https://github.com/BenEklundCS/RaylibTemplate
 
 ---
 
 ## 🎮 Features
 
-- ✅ **C++17 + Raylib** setup with proper project structure
-- ✅ **ImGui & rlImGui** support out of the box (UI overlays, debug tools)
-- ✅ **CMake-based build** (works with CLion, VSCode, or terminal)
-- ✅ **Cross-platform support** (tested on Windows 11 & Linux Mint)
-- ✅ Lightweight and minimal boilerplate—ideal for small games or prototypes
+- ✅ **Flappy Bird Mechanics, jump over pipes - game exits if you collide!
+- ✅ **Score counter, keeps track of your score as you traverse. How high can you go?
+- ✅ **Smart Pipe spawning and deallocation as the object leaves the level
 
 ---
 
@@ -29,7 +27,6 @@ project-root/
 └── README.md
 ```
 
-
 ---
 
 ## Getting Started
@@ -37,8 +34,8 @@ project-root/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/BenEklundCS/YourTemplateRepo.git
-cd YourTemplateRepo
+git clone https://github.com/BenEklundCS/FlappyBird.git
+cd FlappyBird
 ```
 
 ### 2. Build the Project
@@ -48,7 +45,5 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
-./MyGameProject   # or .\MyGameProject.exe on Windows
+./FlappyBird   # or .\FlappyBird.exe on Windows
 ```
-
-
