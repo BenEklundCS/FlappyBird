@@ -1,4 +1,4 @@
-# Flappy Bird Clone - Game 1 of the 20 Games Challenge, based on C++ Raylib Game Template
+# Flappy Bird Clone in C++ with Raylib, based on C++ Raylib Game Template
 
 [![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://cplusplus.com/) 
 [![Raylib](https://img.shields.io/badge/Raylib-FA8B00?style=for-the-badge&logo=raylib&logoColor=white)](https://www.raylib.com/) 
